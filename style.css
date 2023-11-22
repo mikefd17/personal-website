@@ -2,15 +2,7 @@ body {
     background-color: grey;
     margin-top: 50px;
 }
-/**
-img {
-    width: 300px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    margin: 50px 40%; 
-}
-**/
+
 header {
     display: flex;
     align-items: center;
