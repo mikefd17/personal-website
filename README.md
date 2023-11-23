@@ -7,3 +7,5 @@ November 22, 2023
 #3 Added footer with email and social media icons/links
 #4 Styled favicons for social media links
 #5 Social media favicons added to images folder
+#6 Added additional CSS for mobile responsiveness
+#7 Added screenshots of Upwork reviews

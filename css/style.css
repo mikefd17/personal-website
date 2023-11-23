@@ -1,20 +1,20 @@
 body {
     background-color: lightseagreen;
-    margin: 50px;
+    margin: auto;
 }
 
 header {
     display: flex;
-    align-items: center;
     justify-content: center;
-    margin-left: 15%;
-    margin-right: 15%;
-    
-    padding: 60px;
+    align-items: center;
+    margin: auto;
+    max-width: 80%;
+    padding: 20px;
+    flex-wrap: wrap;
 }
 
 img {
-    width: 300px;
+    width: 250px;
     max-width: 100%;
     max-height:100%;
     border-radius: 10%;
@@ -23,27 +23,61 @@ img {
 .heading {
     font-size: 20px;
     padding-left: 20px;
+    padding-right: 20px;
     text-align: center;
 }
 .about-me {
     display: inline-block;
     align-items: center;
-    margin: 40px 20% 20px 20%;
+    margin: 30px 20% 30px 20%;
     background-color: lightblue;
     padding: 25px;
 }
 
+.reviews {
+    margin: 10px 15%;
+}
+
+.screenshots {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 15%;
+}
+
+.upwork-review-1 {
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    margin: 20px auto;
+}
+
+.upwork-review-2 {
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    margin: 20px auto;
+}
+
+.upwork-review-3 {
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    margin: 20px auto;
+}
+
 footer {
-    display: inline-block;
+    display: block;
     justify-content: center;
     margin: 10px 15%;
 }
 
 .social {
-    display: inline;
+    display: flex;
+    flex-flow: row;
 }
 
 .favicon {
     height: 40px;
     width: 40px;
+    padding: 10px;
 }
