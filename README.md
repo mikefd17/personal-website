@@ -10,3 +10,4 @@ November 22, 2023
 #6 Added additional CSS for mobile responsiveness
 #7 Added screenshots of Upwork reviews
 #8 Cropped images and resized in style.css
+#9 Added favicon and link to upwork profile
