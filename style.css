@@ -1,6 +1,6 @@
 body {
-    background-color: grey;
-    margin-top: 50px;
+    background-color: lightseagreen;
+    margin: 50px;
 }
 
 header {
@@ -9,28 +9,33 @@ header {
     justify-content: center;
     margin-left: 15%;
     margin-right: 15%;
+    
+    padding: 60px;
 }
 
 img {
     width: 300px;
     max-width: 100%;
     max-height:100%;
+    border-radius: 10%;
 }
 
 .heading {
     font-size: 20px;
     padding-left: 20px;
+    text-align: center;
 }
-
 .about-me {
     display: inline-block;
     align-items: center;
     margin: 40px 20% 20px 20%;
+    background-color: lightblue;
+    padding: 25px;
 }
 
 footer {
     display: inline-block;
-    align-items: center;
+    justify-content: center;
     margin: 10px 15%;
 }
 
