@@ -13,3 +13,4 @@ November 22, 2023
 #9 Added favicon and link to upwork profile
 #10 Changed background color and placing of social links
 #11 Updated style.css for more responsivess
+#12 Additional edits to the heading and style.css

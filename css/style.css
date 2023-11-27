@@ -1,7 +1,7 @@
 body {
-    background-color: whitesmoke;
+    background-color: auto;
     margin: auto;
-    padding: 0;
+    padding: 20px 0;
 }
 
 header {
@@ -15,6 +15,11 @@ header {
 }
 
 .picture-container {
+    display: block;
+    align-content: center;
+}
+
+.picture-container img {
     width: 200px;
     max-width: 100%;
     max-height:100%;
@@ -24,24 +29,24 @@ header {
 
 .heading {
     font-size: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 0 auto;
     text-align: center;
-    margin: 20px 0px;
+    margin: 0 20%;
 }
 
 .opening {
     display: flex;
     flex-wrap: wrap;
-    margin: 20px 0px;
+    text-align: center;
+    margin: 10px 20%;
 }
 
 .about-me {
     justify-content: center;
     max-width: 100%;
-    margin: auto 10%;
-    background-color: white;
-    padding: 20px 5px;
+    margin: 10px 15%;
+    background-color: whitesmoke;
+    padding: 10px 0;
 }
 
 .about-item {
@@ -50,15 +55,16 @@ header {
 }
 
 
-.reviews {
+.client-reviews {
     margin: 50px auto 20px auto;
     text-align: center;
 }
 
 .screenshots {
     display: flex;
-    flex-wrap: wrap;
-    margin: 20px 20%;
+    flex-flow: row wrap;
+    margin: 20px 15%;
+    max-width: 100%;
 }
 
 .upwork-review-1 {
@@ -81,7 +87,7 @@ header {
     display: flex;
     flex-direction: row;
     width: 100%;
-    max-width: 600px;
+    max-width: 500px;
     margin: 20px auto;
 }
 
@@ -93,12 +99,18 @@ footer {
 .social {
     display: flex;
     flex-flow: row;
-    justify-content: center;
+    align-content: center;
     margin: 10px auto;
+    margin: 0 50%;
 }
 
 .favicon {
     height: 40px;
     width: 40px;
     padding: 10px;
+}
+
+.favicon:hover {
+    height: 50px;
+    width: 50px;
 }
